@@ -1,6 +1,8 @@
 # Face Detection Model using DL 
 Project 02 for Computer Vision Using Deep Learning
 
+*ps it's actually an end to end object detection pipeline*
+
 ## Work Breakdown
 1. **Collecting** images from the webcam
 2. **Anotating** images: drawing bounding boxes around the head using the LABELME library which helps draw the bounding boxes as well as labelings
