@@ -6,7 +6,7 @@ Project 02 for Computer Vision Using Deep Learning
 ## Work Breakdown
 1. **Collecting** images from the webcam
 2. **Anotating** images: drawing bounding boxes around the head using the LABELME library which helps draw the bounding boxes as well as labelings
-3. **Augmentation**: Due to insufficient data we need to increase numbers by augmenting the data by applying random cropping, brightness level variation, flipping and gamma transformations that allow us to 30X our dataset size. This is achieved via the **Aubumentation library**
+3. **Augmentation**: Due to insufficient data we need to increase numbers by augmenting the data by applying random cropping, brightness level variation, flipping and gamma transformations that allow us to 30X our dataset size. This is achieved via the **Albumentation library**
 4. **Training**: An object detection model is essentially two models - an **image classification** model that has to determine the existence of an image with a certain degree of certainty and a **regression model** - to estimate the approximate coordinates of the two diagonally opposite points required to plot the bounding box
  - Before training, we also need to determine the **Loss Functions** which is done through
    -  the **BinaryCrossentropy** class for face classification and
